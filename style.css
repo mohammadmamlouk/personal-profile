@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #333;
+  margin: 20px;
+}
+
+header {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007BFF;
+}
+
+.intro {
+    display: flex;
+    text-align: start;
+    padding: 60px 20px;
+    background-color: rgb(242, 246, 228);
+}
+
+.intro h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+#image{
+    border-radius: 50%;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.projects {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 20px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact {
+  background-color: rgb(242, 246, 228);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#name, #email{
+    width: 40%;
+}
+
+
+
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}
